@@ -1,0 +1,13 @@
+{
+    "name": "blog-1",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "cross-env NODE_ENV=dev nodemon server.js",
+        "pro": "cross-env NODE_ENV=pro nodemon server.js"
+    },
+    "author": "",
+    "license": "ISC"
+}
